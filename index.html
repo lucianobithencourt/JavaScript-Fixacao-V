@@ -14,45 +14,35 @@
 
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-    <title>Exer - Calcular Idade -</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Exer - MostrarHora -</title>
 </head>
 
 
 
-<body onload="mostrarHora()" style="background-color: rgb(70, 142, 236);">
-    <h1 class="display-4 text-danger text-center" " >Calcular Idade</h1>
-
-    <form class="form-group" action="#" >
-
-        <p class="ml-3">Ano de Nascimento</p>
-        <input class="form-control ml-1" type="number" name="ano-nasc" id="iano-nasc">
-
-        <input class="btn btn-outline-light mt-3 ml-2" type="button" value="Calcular Idade" onclick="calcularIdade()">
-
-        <input class="btn btn-outline-light mt-3" type="reset" value="Limpar">
-
-        <p id="res" class="mt-2 ml-3 text-center">idade</p>
-
-    </form>
+<body onload="mostrarHora()">
 
 
     <h1 class="text-center m-2">Hora do Dia</h1>
+
     <section style="box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);">
         
 
-        <div class="text-center text-light bg-primary"  id="msg" style="font-weight: 600;font-size: 1.5em;">
+        <div id="msg" class="text-center text-light bg-primary"   style="font-weight: 600;font-size: 1.5em;" >
             -----------------
         </div >
 
         <div id="foto">
-            
-            <img id="imagem" class="img-fluid" src="img/foto-principal.jpg" alt="">
+                        <img id="imagem" class="img-fluid my-3 "  src="img/foto-principal.png" alt="">
         </div>
     </section>
 
     <footer>
         <p class="text-center img" style="font-weight: 600;"> &copy; CopyRight - Reservados</p>
     </footer>
+
+    <script src="js/mostrarHora.js"></script>
     
 
 
@@ -75,7 +65,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
-    <script src="js/script.js"></script>
+    <script src="js/mostrarhoras.js"></script>
 
   
 </body>
