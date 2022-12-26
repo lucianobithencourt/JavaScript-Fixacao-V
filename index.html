@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS CUSTOMIZADO -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Exer - Calcular Idade -</title>
+</head>
+
+
+
+<body onload="mostrarHora()" style="background-color: rgb(70, 142, 236);">
+    <h1 class="display-4 text-danger text-center" " >Calcular Idade</h1>
+
+    <form class="form-group" action="#" >
+
+        <p class="ml-3">Ano de Nascimento</p>
+        <input class="form-control ml-1" type="number" name="ano-nasc" id="iano-nasc">
+
+        <input class="btn btn-outline-light mt-3 ml-2" type="button" value="Calcular Idade" onclick="calcularIdade()">
+
+        <input class="btn btn-outline-light mt-3" type="reset" value="Limpar">
+
+        <p id="res" class="mt-2 ml-3 text-center">idade</p>
+
+    </form>
+
+
+    <h1 class="text-center m-2">Hora do Dia</h1>
+    <section style="box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);">
+        
+
+        <div class="text-center text-light bg-primary"  id="msg" style="font-weight: 600;font-size: 1.5em;">
+            -----------------
+        </div >
+
+        <div id="foto">
+            
+            <img id="imagem" class="img-fluid" src="img/foto-principal.jpg" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <p class="text-center img" style="font-weight: 600;"> &copy; CopyRight - Reservados</p>
+    </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <script src="js/script.js"></script>
+
+  
+</body>
+
+</html>
