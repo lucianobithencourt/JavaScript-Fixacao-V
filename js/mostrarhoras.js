@@ -11,16 +11,17 @@ function mostrarHora() {
     var horasSis =  new Date();
 
     var horas=horasSis.getHours();
-    var minutos=horasSis.getMinutes(0);
+    var minutos=horasSis.getMinutes();
 
-    // var horas = 19
+    // var horas = 9
     // var minutos = 27
 
 
     if (horas >= 0 && horas < 12) {
         element_msg.innerHTML = (`Bom dia !! - ${horas}h${minutos}`)
         element_img.src='../img/foto-manha.png'
-        element_img.style.backgroundColor = "yellow"
+        element_img.style.borderRadius= "5px 10px"
+        element_img.style.padding= "5px 5px"
 
     } else if (horas >=12 && horas < 18) {
         element_msg.innerHTML = (`Boa Tarde!! - ${horas}h${minutos}`)
@@ -33,8 +34,10 @@ function mostrarHora() {
     } else  if (horas >=19 && horas <=23) {
         element_msg.innerHTML = (`Boa Noite!! - ${horas}h${minutos}`)
         element_img.src='../img/foto-noite.png'
-        element_img.style.backgroundColor = "yellow"
-        
+        element_img.style.backgroundColor = "#012"
+        element_img.style.borderRadius= "5px 10px"
+        element_img.style.padding= "5px 5px"
+
     }
 
 }
